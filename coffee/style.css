@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: white;
+    background: url(c2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+span{
+    color: red;
+}
+
+.one h1{
+    font-size: 67px;
+}
+
+.one{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    color: white;
+}
+.one p{
+    position: absolute;
+    margin-top: 80px;
+    left: 130px;
+    font-size: 20px;
+}
+
+.one li{
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 25px;
+    transition-timing-function: ease;
+}
+
+.one li:hover{
+    cursor: pointer;
+    color: red;
+    transition-duration: 0.5s;
+    padding: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    margin-top: 30px;
+}
+
+.mid .h12,p,button{
+    position: absolute;
+}
+
+.h12,.h11{
+    font-size: 50px;
+}
+
+.h12{
+    margin-top: 110px;
+    left: 80px;
+}
+
+.mid p{
+    margin-top: 190px;
+    left: 80px;
+    color: wheat;
+}
+.mid button{
+    margin-top: 290px;
+    left: 80px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 10px;
+    transition-timing-function:.4s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+}
